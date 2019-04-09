@@ -1,2 +1,2 @@
 # dataAnalysis
-Team skittles group project
+Team Scrumbled Eggs group project

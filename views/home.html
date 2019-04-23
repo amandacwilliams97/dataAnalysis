@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Data Analysis</title>
+</head>
+<body>
+    <table id="labData">
+        <!-- column headers -->
+        <thead>
+            <tr>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>SID#</th>
+                <th>Total Days</th>
+                <th>Total Hours</th>
+                <th>Instructor</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- data values -->
+            <tr>
+                <td>Eva</td>
+                <td></td>
+                <td>1</td>
+                <td>20</td>
+                <td>23:35:00</td>
+                <td>Chanda</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Jenna</td>
+                <td></td>
+                <td>1</td>
+                <td>1</td>
+                <td>47:00:00</td>
+                <td>Chanda</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="//code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#labData').DataTable();
+        } );
+    </script>
+</body>
+</html>

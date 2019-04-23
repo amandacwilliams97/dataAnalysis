@@ -1,0 +1,24 @@
+{
+  "name": "mprelesn/355/skittles/dataAnalysis",
+  "authors": [
+    {
+      "name": "Mike Prelesnik",
+      "email": "mprelesnik@mail.greenriver.edu"
+    },
+    {
+      "name": "Ean Daus",
+      "email": "edaus3@mail.greenriver.edu"
+    },
+    {
+      "name": "Phil Bowden",
+      "email": "pbowden@mail.greenriver.edu"
+    },
+    {
+      "name": "Amanda Williams",
+      "email": "awilliams100@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}

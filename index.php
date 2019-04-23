@@ -14,14 +14,14 @@ $f3 = Base::instance();
 $f3->set('DEBUG', 3);
 
 //Define Default route
-$f3->route('GET|POST /', function()
+$f3->route('GET|POST /', function($f3)
 {
-
     //stuff if necessary
+    $f3->set('content', 'views/home.html');
 
     //load a template
     $template = new Template();
-    echo $template->render('views/home.html');
+    echo $template->render('views/template.html');
 });
 
 $f3->run();

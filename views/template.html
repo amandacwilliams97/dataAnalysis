@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #templateHeader {
+            border-bottom: 1px solid #2c882b;
+            margin: 0;
+            vertical-align: baseline;
+            text-align: left;
+            display: block;
+        }
+
+        #templateHeader img {
+            height: 15vh;
+            background-color: #2c882b;
+            padding: 1em 4em;
+        }
+
+        #templateHeader h1 {
+            text-decoration: underline #2c882b;
+            font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+            font-weight: bold;
+            color: #707070;
+            padding-left: 3em;
+        }
+    </style>
+    <title>Data Analysis</title>
+</head>
+<body>
+<header id="templateHeader">
+    <a href="http://www.greenriver.edu/">
+        <img src="//grcc.greenriver.edu/GRC-Template/logo.png" alt="Green River Logo">
+    </a>
+    <h1>Data Analysis</h1>
+</header>
+
+<!--Include for main page content-->
+<include href="{{@content}}"></include>
+
+<footer id="templateFooter">
+    <p class="rights">© 2019 GREEN RIVER COLLEGE, ALL RIGHTS RESERVED &nbsp; &nbsp; | <a
+            href="https://www.greenriver.edu/privacy/">Privacy</a> | <a
+            href="https://www.greenriver.edu/accessibility-disclaimer/">Accessibility &amp; Disclaimers</a> | <a
+            href="https://www.greenriver.edu/consumer-information/">Consumer Information</a> | <a
+            href="https://www.greenriver.edu/campus/human-resources/careers/">Careers</a></p>
+</footer>
+</body>
+</html>

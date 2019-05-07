@@ -24,4 +24,14 @@ $f3->route('GET|POST /', function($f3)
     echo $template->render('views/template.html');
 });
 
+//Individual student table
+$f3->route('GET|POST /students', function($f3)
+{
+    $f3->set('content', 'views/students.html');
+
+    //load a template
+    $template = new Template();
+    echo $template->render('views/template.html');
+});
+
 $f3->run();
